@@ -758,11 +758,6 @@
 #define Y_HOME_DIR -1
 #define Z_HOME_DIR 1
 
-//#define min_software_endstops false // If true, axis won't move to coordinates less than HOME_POS.
-//#define max_software_endstops false  // If true, axis won't move to coordinates greater than the defined lengths below.
-#define min_software_endstops true // If true, axis won't move to coordinates less than HOME_POS.
-#define max_software_endstops true  // If true, axis won't move to coordinates greater than the defined lengths below.
-
 // @section machine
 
 // Travel limits after homing (units are in mm)
@@ -1357,7 +1352,7 @@
 //
 // Note: Usually sold with a white PCB.
 //
-#define REPRAP_DISCOUNT_SMART_CONTROLLER
+//#define REPRAP_DISCOUNT_SMART_CONTROLLER
 
 //
 // GADGETS3D G3D LCD/SD Controller
@@ -1371,7 +1366,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // http://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 //
 // MakerLab Mini Panel with graphic
